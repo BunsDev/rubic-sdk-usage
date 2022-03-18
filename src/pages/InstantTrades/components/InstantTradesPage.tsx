@@ -1,6 +1,6 @@
 import { FunctionComponent, useCallback, useEffect, useState } from 'react';
 import React from 'react';
-import { MAINNET_BLOCKCHAIN_NAME, PriceToken, PriceTokenAmount, SDK, Web3Pure, InstantTrade } from 'rubic-sdk';
+import { MAINNET_BLOCKCHAIN_NAME, PriceToken, PriceTokenAmount, SDK, Web3Pure, InstantTrade } from 'rubik-sdk';
 import { useRubicSdk } from 'src/hooks/useRubicSdk';
 
 import { CommonTradeInfo } from 'src/pages/InstantTrades/components/CommonTradeInfo';

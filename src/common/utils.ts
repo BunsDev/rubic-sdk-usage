@@ -1,4 +1,4 @@
-import { Web3Pure } from 'rubic-sdk';
+import { Web3Pure } from 'rubik-sdk';
 
 export const validateAddressesObjects = (addresses: {address: string}[] | {address: string}) => {
     if (Array.isArray(addresses)) {

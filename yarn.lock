@@ -9395,16 +9395,6 @@ rollup@^2.43.1:
   optionalDependencies:
     fsevents "~2.3.2"
 
-rubic-sdk@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/rubic-sdk/-/rubic-sdk-0.1.4.tgz#c28f64cffea981a4f9d261e339c34cdde9309875"
-  integrity sha512-T+pxmB87M65fWweoJAhaz7IboR5Ce/GGkIvWjcualXEbHDgm11ZKYyl7hdST4TSMMF5uKZIvHTr7IwNot+7ydQ==
-  dependencies:
-    assert "^2.0.0"
-    axios "^0.22.0"
-    bignumber.js "^9.0.1"
-    web3 "~1.5.3"
-
 run-parallel@^1.1.9:
   version "1.2.0"
   resolved "https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz"

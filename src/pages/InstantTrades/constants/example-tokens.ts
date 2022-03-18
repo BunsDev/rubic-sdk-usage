@@ -1,4 +1,4 @@
-import { BLOCKCHAIN_NAME, MAINNET_BLOCKCHAIN_NAME } from 'rubic-sdk';
+import { BLOCKCHAIN_NAME, MAINNET_BLOCKCHAIN_NAME } from 'rubik-sdk';
 
 type ExampleToken = {
     from: string;

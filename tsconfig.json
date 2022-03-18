@@ -20,9 +20,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": "./",
-    "@core/*": ["./node_modules/rubic-sdk/dist/core/*"],
-    "@common/*": ["./node_modules/rubic-sdk/dist/core/*"],
-    "@features/*": ["./node_modules/rubic-sdk/dist/core/*"]
+    "@core/*": ["./node_modules/rubik-sdk/dist/core/*"],
+    "@common/*": ["./node_modules/rubik-sdk/dist/core/*"],
+    "@features/*": ["./node_modules/rubik-sdk/dist/core/*"]
   },
   "include": [
     "src"

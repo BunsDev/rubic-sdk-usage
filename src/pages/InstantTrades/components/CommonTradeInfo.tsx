@@ -2,7 +2,7 @@ import React, { FunctionComponent, useState } from 'react';
 
 //@ts-ignore
 import { Card, Flex, Heading, Input, Box } from 'rimble-ui';
-import { PriceToken, PriceTokenAmount } from 'rubic-sdk';
+import { PriceToken, PriceTokenAmount } from 'rubik-sdk';
 
 interface IProps {
     fromToken: PriceTokenAmount | null;

@@ -4,7 +4,7 @@ import React, { FunctionComponent, useMemo, useState } from 'react';
 
 //@ts-ignore
 import { Card, Flex, Heading, Input, Box, Select } from 'rimble-ui';
-import { BLOCKCHAIN_NAME, MAINNET_BLOCKCHAIN_NAME, PriceToken, PriceTokenAmount } from 'rubic-sdk';
+import { BLOCKCHAIN_NAME, MAINNET_BLOCKCHAIN_NAME, PriceToken, PriceTokenAmount } from 'rubik-sdk';
 
 import { validateAddresses } from 'src/common/utils';
 import { useRubicSdk } from 'src/hooks/useRubicSdk';

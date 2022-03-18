@@ -1,7 +1,7 @@
 import { FunctionComponent, useCallback } from 'react';
 // @ts-ignore
 import { Card, Heading, Button, Box } from 'rimble-ui';
-import { InstantTrade } from 'rubic-sdk';
+import { InstantTrade } from 'rubik-sdk';
 
 import { WalletButton } from 'src/components/WalletButton';
 import { useAddress } from 'src/hooks/useAddress';

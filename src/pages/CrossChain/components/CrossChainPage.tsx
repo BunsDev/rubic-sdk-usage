@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import React from 'react';
-import { BLOCKCHAIN_NAME, CrossChainTrade, MAINNET_BLOCKCHAIN_NAME, SDK } from 'rubic-sdk';
+import { BLOCKCHAIN_NAME, CrossChainTrade, MAINNET_BLOCKCHAIN_NAME, SDK } from 'rubik-sdk';
 
 
 import { validateAddresses } from 'src/common/utils';

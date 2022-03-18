@@ -1,4 +1,4 @@
-import { BLOCKCHAIN_NAME, Configuration } from 'rubic-sdk';
+import { BLOCKCHAIN_NAME, Configuration } from 'rubik-sdk';
 
 export const configuration: Configuration = {
     rpcProviders: {
