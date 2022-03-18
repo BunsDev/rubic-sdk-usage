@@ -5,7 +5,7 @@ import { InstantTrade } from 'rubik-sdk';
 
 import { WalletButton } from 'src/components/WalletButton';
 import { useAddress } from 'src/hooks/useAddress';
-import { isOneInchLikeTrade, isUniswapV2LikeTrade } from 'rubic-sdk/lib/features/instant-trades/utils/type-guards';
+import { isOneInchLikeTrade, isUniswapV2LikeTrade } from 'rubik-sdk/lib/features/instant-trades/utils/type-guards';
 
 interface IProps {
     instantTrade: InstantTrade
@@ -51,6 +51,7 @@ export const InstantTradeComponent: FunctionComponent<IProps> = ({ instantTrade 
                     <span>{instantTrade.to.symbol}</span>
                 </Box>
                 {(isUniswapV2LikeTrade(instantTrade) || isOneInchLikeTrade(instantTrade)) &&
+                // @ts-ignore
                     <Box mt={2}>Path: {instantTrade.path.map(t => t.symbol).join(' ➞ ')}</Box>
                 }
             </Box>

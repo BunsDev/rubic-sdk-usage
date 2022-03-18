@@ -9395,6 +9395,16 @@ rollup@^2.43.1:
   optionalDependencies:
     fsevents "~2.3.2"
 
+rubik-sdk@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/rubik-sdk/-/rubik-sdk-1.0.0.tgz#c2d738cf02d86ed8939f730e1991f2d98737d3ec"
+  integrity sha512-x3Ix06t2/xbxrY4ke0MThrVfx4ImCfLG74t4ekidmjidM0ddiach5BjYAuEj0o4KzDTZsTsb0RYQuvJD2lrZBQ==
+  dependencies:
+    assert "^2.0.0"
+    axios "^0.22.0"
+    bignumber.js "^9.0.1"
+    web3 "~1.5.3"
+
 run-parallel@^1.1.9:
   version "1.2.0"
   resolved "https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz"
